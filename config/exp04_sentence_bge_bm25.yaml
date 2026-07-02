@@ -1,0 +1,9 @@
+chunker: sentence
+chunker_params:
+  chunk_overlap: 2
+  chunk_size: 256
+embedder: bge
+max_docs: 17
+retriever: bm25
+retriever_params:
+  top_k: 5

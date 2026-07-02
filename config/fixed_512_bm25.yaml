@@ -1,0 +1,14 @@
+chunker: fixed_size
+chunker_params:
+  chunk_size: 512
+  chunk_overlap: 100
+
+embedder: bge
+retriever: bm25
+retriever_params:
+  top_k: 5
+
+max_docs: 17
+
+eval:
+  output_file: results/fixed_512_bm25.json

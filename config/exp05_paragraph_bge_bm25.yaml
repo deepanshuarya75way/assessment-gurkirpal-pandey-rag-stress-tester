@@ -1,0 +1,9 @@
+chunker: paragraph
+chunker_params:
+  chunk_size: 256
+  min_paragraph_words: 20
+embedder: bge
+max_docs: 17
+retriever: bm25
+retriever_params:
+  top_k: 5

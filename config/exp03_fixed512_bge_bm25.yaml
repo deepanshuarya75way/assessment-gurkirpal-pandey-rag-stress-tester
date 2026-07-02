@@ -1,0 +1,9 @@
+chunker: fixed_size
+chunker_params:
+  chunk_overlap: 100
+  chunk_size: 512
+embedder: bge
+max_docs: 17
+retriever: bm25
+retriever_params:
+  top_k: 5

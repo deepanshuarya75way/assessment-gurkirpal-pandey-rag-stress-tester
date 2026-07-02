@@ -1,0 +1,9 @@
+.venv/
+.env
+data/raw/
+data/processed/
+results/
+__pycache__/
+*.pyc
+*.pkl
+*.pdf

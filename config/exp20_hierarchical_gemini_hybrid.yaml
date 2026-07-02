@@ -1,0 +1,11 @@
+chunker: hierarchical
+chunker_params:
+  child_overlap: 25
+  child_size: 128
+  parent_size: 512
+embedder: gemini
+max_docs: 17
+retriever: hybrid
+retriever_params:
+  alpha: 0.6
+  top_k: 5

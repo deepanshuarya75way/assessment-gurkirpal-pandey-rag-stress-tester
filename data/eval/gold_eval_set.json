@@ -1,0 +1,409 @@
+{
+  "eval_set": [
+    {
+      "id": "q001",
+      "question": "What was the RBI repo rate decision in April 2024?",
+      "ground_truth_answer": "The RBI kept the repo rate unchanged at 6.5 percent in April 2024.",
+      "source_doc": "monetary_policy_report_2024_apr.pdf",
+      "source_pages": [
+        1,
+        2
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": []
+    },
+    {
+      "id": "q002",
+      "question": "What was India's CPI inflation rate in 2023 according to RBI?",
+      "ground_truth_answer": "India's CPI inflation moderated during 2023, with headline inflation averaging around 5.4 percent for the year.",
+      "source_doc": "monetary_policy_report_2023_oct.pdf",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2023_oct_p10_c0",
+        "monetary_policy_report_2023_oct_p10_c1",
+        "monetary_policy_report_2023_oct_p11_c0",
+        "monetary_policy_report_2023_oct_p11_c1",
+        "monetary_policy_report_2023_oct_p11_c2"
+      ]
+    },
+    {
+      "id": "q003",
+      "question": "What is the RBI's inflation target?",
+      "ground_truth_answer": "The RBI's inflation target is 4 percent with a tolerance band of plus or minus 2 percent, meaning inflation should stay between 2 and 6 percent.",
+      "source_doc": "monetary_policy_report_2022_apr.pdf",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2022_apr_p5_c0"
+      ]
+    },
+    {
+      "id": "q004",
+      "question": "How did the RBI's stance on monetary policy change between 2022 and 2024?",
+      "ground_truth_answer": "In 2022 RBI shifted to an accommodative stance with rate hikes to control inflation. By 2024 the stance moved to withdrawal of accommodation as inflation moderated, with rates held steady at 6.5 percent.",
+      "source_doc": "monetary_policy_report_2024_apr.pdf",
+      "source_pages": [
+        1,
+        2,
+        3
+      ],
+      "question_type": "cross_document",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2024_apr_p3_c0"
+      ]
+    },
+    {
+      "id": "q005",
+      "question": "What was the gross NPA ratio of scheduled commercial banks in 2023?",
+      "ground_truth_answer": "The gross non-performing asset ratio of scheduled commercial banks declined to a multi-year low of around 3.9 percent in 2023.",
+      "source_doc": "financial_stability_report_2023_dec.pdf",
+      "source_pages": [
+        15,
+        16
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "financial_stability_report_2023_dec_p15_c0",
+        "financial_stability_report_2023_dec_p15_c1",
+        "financial_stability_report_2023_dec_p16_c0",
+        "financial_stability_report_2023_dec_p16_c1"
+      ]
+    },
+    {
+      "id": "q006",
+      "question": "What is the Cash Reserve Ratio set by RBI?",
+      "ground_truth_answer": "The Cash Reserve Ratio was maintained at 4.5 percent of net demand and time liabilities by the RBI.",
+      "source_doc": "monetary_policy_report_2023_apr.pdf",
+      "source_pages": [
+        8,
+        9
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2023_apr_p8_c0",
+        "monetary_policy_report_2023_apr_p8_c1",
+        "monetary_policy_report_2023_apr_p9_c0",
+        "monetary_policy_report_2023_apr_p9_c1"
+      ]
+    },
+    {
+      "id": "q007",
+      "question": "What was India's GDP growth rate in 2023-24?",
+      "ground_truth_answer": "India's GDP growth was estimated at 8.2 percent in 2023-24, making it one of the fastest growing major economies.",
+      "source_doc": "economic_survey_2023_24.pdf",
+      "source_pages": [
+        20,
+        21
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "economic_survey_2023_24_p20_c0",
+        "economic_survey_2023_24_p21_c0",
+        "economic_survey_2023_24_p21_c1"
+      ]
+    },
+    {
+      "id": "q008",
+      "question": "How did global inflation affect India's monetary policy decisions in 2022?",
+      "ground_truth_answer": "Global inflation surged in 2022 due to supply chain disruptions and the Russia-Ukraine conflict, forcing RBI to raise the repo rate by 250 basis points from May 2022 to contain imported inflation pressures.",
+      "source_doc": "monetary_policy_report_2022_oct.pdf",
+      "source_pages": [
+        3,
+        4,
+        5
+      ],
+      "question_type": "cross_document",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2022_oct_p3_c0",
+        "monetary_policy_report_2022_oct_p5_c0"
+      ]
+    },
+    {
+      "id": "q009",
+      "question": "What is the Standing Deposit Facility rate?",
+      "ground_truth_answer": "The Standing Deposit Facility rate was set at 6.25 percent, serving as the floor of the liquidity adjustment facility corridor.",
+      "source_doc": "monetary_policy_report_2024_apr.pdf",
+      "source_pages": [
+        7,
+        8
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2024_apr_p7_c0",
+        "monetary_policy_report_2024_apr_p7_c1",
+        "monetary_policy_report_2024_apr_p8_c0",
+        "monetary_policy_report_2024_apr_p8_c1"
+      ]
+    },
+    {
+      "id": "q010",
+      "question": "What was the current account deficit of India in 2022-23?",
+      "ground_truth_answer": "India's current account deficit narrowed to 2.0 percent of GDP in 2022-23 from 1.2 percent in 2021-22.",
+      "source_doc": "economic_survey_2022_23.pdf",
+      "source_pages": [
+        45,
+        46
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "economic_survey_2022_23_p45_c0",
+        "economic_survey_2022_23_p45_c1",
+        "economic_survey_2022_23_p45_c2",
+        "economic_survey_2022_23_p46_c0",
+        "economic_survey_2022_23_p46_c1",
+        "economic_survey_2022_23_p46_c2"
+      ]
+    },
+    {
+      "id": "q011",
+      "question": "What is MCLR and how does it affect loan interest rates?",
+      "ground_truth_answer": "MCLR or Marginal Cost of Funds based Lending Rate is the minimum interest rate below which banks cannot lend. It is linked to repo rate changes, so when RBI raises repo rate, MCLR rises and loan EMIs increase.",
+      "source_doc": "monetary_policy_report_2023_apr.pdf",
+      "source_pages": [
+        25,
+        26
+      ],
+      "question_type": "domain_jargon",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2023_apr_p25_c0",
+        "monetary_policy_report_2023_apr_p25_c1",
+        "monetary_policy_report_2023_apr_p25_c2",
+        "monetary_policy_report_2023_apr_p26_c0"
+      ]
+    },
+    {
+      "id": "q012",
+      "question": "How did the Financial Stability Report 2022 assess risks to Indian banks?",
+      "ground_truth_answer": "The Financial Stability Report of December 2022 assessed that Indian banks remained resilient with improving asset quality, declining NPA ratios and adequate capital buffers despite global headwinds.",
+      "source_doc": "financial_stability_report_2022_dec.pdf",
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "financial_stability_report_2022_dec_p10_c0",
+        "financial_stability_report_2022_dec_p10_c1",
+        "financial_stability_report_2022_dec_p11_c0",
+        "financial_stability_report_2022_dec_p11_c1",
+        "financial_stability_report_2022_dec_p12_c0",
+        "financial_stability_report_2022_dec_p12_c1"
+      ]
+    },
+    {
+      "id": "q013",
+      "question": "What was the repo rate in October 2023?",
+      "ground_truth_answer": "The repo rate was kept unchanged at 6.5 percent in October 2023 as the MPC decided to hold rates while remaining focused on withdrawal of accommodation.",
+      "source_doc": "monetary_policy_report_2023_oct.pdf",
+      "source_pages": [
+        1,
+        2
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": []
+    },
+    {
+      "id": "q014",
+      "question": "What is India's foreign exchange reserve position?",
+      "ground_truth_answer": "India's foreign exchange reserves were comfortable, providing import cover of around 11 months, supporting external sector stability.",
+      "source_doc": "financial_stability_report_2024_jun.pdf",
+      "source_pages": [
+        30,
+        31
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "financial_stability_report_2024_jun_p30_c0",
+        "financial_stability_report_2024_jun_p30_c1",
+        "financial_stability_report_2024_jun_p31_c0"
+      ]
+    },
+    {
+      "id": "q015",
+      "question": "How did RBI define the Liquidity Adjustment Facility corridor?",
+      "ground_truth_answer": "The Liquidity Adjustment Facility corridor is bounded by the Standing Deposit Facility rate at the floor and the Marginal Standing Facility rate at the ceiling, with the repo rate in the middle as the policy rate.",
+      "source_doc": "monetary_policy_report_2023_apr.pdf",
+      "source_pages": [
+        18,
+        19
+      ],
+      "question_type": "domain_jargon",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2023_apr_p18_c0",
+        "monetary_policy_report_2023_apr_p18_c1",
+        "monetary_policy_report_2023_apr_p18_c2",
+        "monetary_policy_report_2023_apr_p19_c0",
+        "monetary_policy_report_2023_apr_p19_c1"
+      ]
+    },
+    {
+      "id": "q016",
+      "question": "What was the unemployment rate in India according to the Economic Survey 2023-24?",
+      "ground_truth_answer": "The Economic Survey 2023-24 highlighted improvements in employment with the unemployment rate declining, supported by strong growth in manufacturing and services sectors.",
+      "source_doc": "economic_survey_2023_24.pdf",
+      "source_pages": [
+        55,
+        56
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "economic_survey_2023_24_p55_c0",
+        "economic_survey_2023_24_p55_c1",
+        "economic_survey_2023_24_p56_c0",
+        "economic_survey_2023_24_p56_c1"
+      ]
+    },
+    {
+      "id": "q017",
+      "question": "What steps did RBI take to manage liquidity in 2024?",
+      "ground_truth_answer": "RBI conducted variable rate repo and reverse repo operations to manage liquidity, ensuring adequate but not excessive liquidity in the banking system to support transmission of monetary policy.",
+      "source_doc": "monetary_policy_report_2024_apr.pdf",
+      "source_pages": [
+        20,
+        21
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2024_apr_p20_c0",
+        "monetary_policy_report_2024_apr_p20_c1",
+        "monetary_policy_report_2024_apr_p20_c2",
+        "monetary_policy_report_2024_apr_p21_c0",
+        "monetary_policy_report_2024_apr_p21_c1",
+        "monetary_policy_report_2024_apr_p21_c2",
+        "monetary_policy_report_2024_apr_p21_c3"
+      ]
+    },
+    {
+      "id": "q018",
+      "question": "How did credit growth in India change between 2022 and 2024?",
+      "ground_truth_answer": "Bank credit growth remained robust averaging around 15 to 16 percent in 2022-23 before moderating slightly in 2023-24 while remaining healthy, driven by retail and services sector lending.",
+      "source_doc": "financial_stability_report_2024_dec.pdf",
+      "source_pages": [
+        22,
+        23
+      ],
+      "question_type": "cross_document",
+      "ground_truth_chunk_ids": [
+        "financial_stability_report_2024_dec_p22_c0",
+        "financial_stability_report_2024_dec_p23_c0",
+        "financial_stability_report_2024_dec_p23_c1"
+      ]
+    },
+    {
+      "id": "q019",
+      "question": "What is the Statutory Liquidity Ratio requirement for banks?",
+      "ground_truth_answer": "The Statutory Liquidity Ratio was maintained at 18 percent of net demand and time liabilities, requiring banks to hold this proportion in approved securities.",
+      "source_doc": "monetary_policy_report_2022_apr.pdf",
+      "source_pages": [
+        12,
+        13
+      ],
+      "question_type": "domain_jargon",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2022_apr_p12_c0",
+        "monetary_policy_report_2022_apr_p12_c1",
+        "monetary_policy_report_2022_apr_p12_c2",
+        "monetary_policy_report_2022_apr_p13_c0",
+        "monetary_policy_report_2022_apr_p13_c1",
+        "monetary_policy_report_2022_apr_p13_c2"
+      ]
+    },
+    {
+      "id": "q020",
+      "question": "What was India's fiscal deficit target for 2023-24?",
+      "ground_truth_answer": "The fiscal deficit target for 2023-24 was set at 5.9 percent of GDP, as the government continued on the path of fiscal consolidation.",
+      "source_doc": "economic_survey_2023_24.pdf",
+      "source_pages": [
+        70,
+        71
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "economic_survey_2023_24_p70_c0",
+        "economic_survey_2023_24_p70_c1",
+        "economic_survey_2023_24_p71_c0",
+        "economic_survey_2023_24_p71_c1"
+      ]
+    },
+    {
+      "id": "q021",
+      "question": "What is the current price of gold on the moon?",
+      "ground_truth_answer": "NOT IN CORPUS",
+      "source_doc": "none",
+      "source_pages": [],
+      "question_type": "unanswerable",
+      "ground_truth_chunk_ids": []
+    },
+    {
+      "id": "q022",
+      "question": "Who is the CEO of Apple Inc?",
+      "ground_truth_answer": "NOT IN CORPUS",
+      "source_doc": "none",
+      "source_pages": [],
+      "question_type": "unanswerable",
+      "ground_truth_chunk_ids": []
+    },
+    {
+      "id": "q023",
+      "question": "What was the capital to risk weighted assets ratio of banks in 2023?",
+      "ground_truth_answer": "The capital to risk weighted assets ratio of scheduled commercial banks remained well above the regulatory minimum at around 16 to 17 percent in 2023, indicating strong capital buffers.",
+      "source_doc": "financial_stability_report_2023_dec.pdf",
+      "source_pages": [
+        18,
+        19
+      ],
+      "question_type": "domain_jargon",
+      "ground_truth_chunk_ids": [
+        "financial_stability_report_2023_dec_p19_c0",
+        "financial_stability_report_2023_dec_p19_c1",
+        "financial_stability_report_2023_dec_p19_c2"
+      ]
+    },
+    {
+      "id": "q024",
+      "question": "How did food inflation affect overall CPI in 2023?",
+      "ground_truth_answer": "Food inflation remained elevated in 2023 due to erratic monsoon and supply disruptions in vegetables especially tomatoes, keeping headline CPI above the 4 percent target despite moderation in core inflation.",
+      "source_doc": "monetary_policy_report_2023_oct.pdf",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question_type": "factual",
+      "ground_truth_chunk_ids": [
+        "monetary_policy_report_2023_oct_p14_c0",
+        "monetary_policy_report_2023_oct_p14_c1",
+        "monetary_policy_report_2023_oct_p15_c0",
+        "monetary_policy_report_2023_oct_p15_c1",
+        "monetary_policy_report_2023_oct_p15_c2"
+      ]
+    },
+    {
+      "id": "q025",
+      "question": "What was the population of Mars in 2023?",
+      "ground_truth_answer": "NOT IN CORPUS",
+      "source_doc": "none",
+      "source_pages": [],
+      "question_type": "unanswerable",
+      "ground_truth_chunk_ids": []
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "question_types": {
+      "factual": 15,
+      "cross_document": 3,
+      "domain_jargon": 4,
+      "unanswerable": 3
+    },
+    "created_date": "2026-06-20",
+    "corpus": "RBI Reports and Economic Survey 2022-2024"
+  }
+}

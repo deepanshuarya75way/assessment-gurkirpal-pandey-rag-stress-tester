@@ -1,0 +1,15 @@
+chunker: fixed_size
+chunker_params:
+  chunk_size: 128
+  chunk_overlap: 25
+
+embedder: gemini
+retriever: hybrid
+retriever_params:
+  top_k: 5
+  alpha: 0.6
+
+max_docs: 17
+
+eval:
+  output_file: results/fixed_128_hybrid_results.json
