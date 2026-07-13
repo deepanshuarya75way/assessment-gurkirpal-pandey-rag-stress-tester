@@ -1,0 +1,16 @@
+chunker: fixed_size
+chunker_params:
+  chunk_size: 256
+  chunk_overlap: 50
+
+embedder: gemini
+retriever: hybrid
+retriever_params:
+  top_k: 50
+  alpha: 0.6
+
+reranker_depth: 50
+max_docs: 17
+
+eval:
+  output_file: results/rerank50_results.json

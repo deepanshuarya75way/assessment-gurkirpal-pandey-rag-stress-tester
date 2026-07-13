@@ -1,0 +1,12 @@
+chunker: semantic
+chunker_params:
+  threshold: 0.75
+  min_chunk_words: 50
+
+embedder: gemini
+retriever: hybrid
+retriever_params:
+  top_k: 5
+  alpha: 0.6
+
+max_docs: 5
