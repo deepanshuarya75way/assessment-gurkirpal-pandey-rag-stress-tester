@@ -1,0 +1,12 @@
+chunker: fixed_size
+chunker_params:
+  chunk_overlap: 50
+  chunk_size: 256
+embedder: bge
+eval:
+  output_file: results/baseline_results.json
+max_docs: 17
+question: what is retrieval augmented generation?
+retriever: bm25
+retriever_params:
+  top_k: 5
